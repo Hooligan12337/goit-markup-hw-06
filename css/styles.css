@@ -480,6 +480,10 @@ ul {
   margin-bottom: 20px;
 }
 
+.icon-list {
+  margin-right: auto;
+}
+
 .footer-title {
   margin-bottom: 20px;
   font-weight: 700;
@@ -498,9 +502,6 @@ ul {
 .icon-list .social-list .link:hover,
 .icon-list .social-list .link:focus {
   background-color: var(--acent-color);
-}
-.sub-block {
-  margin-left: auto;
 }
 
 .sub-block-label {
@@ -684,7 +685,6 @@ ul {
   /* visibility: visible; */
   pointer-events: none;
   opacity: 0;
-  
 }
 
 .modal {
@@ -713,7 +713,6 @@ ul {
   border-radius: 50%;
   border: 1px solid rgba(0, 0, 0, 0.1);
   background-color: var(--white-color);
-  
 }
 
 .modal-close-icon {
@@ -731,7 +730,7 @@ ul {
 .form-field {
   display: flex;
   flex-direction: column;
-  margin-bottom: 10px;
+  margin-bottom: 0px;
   position: relative;
 }
 
@@ -762,10 +761,19 @@ ul {
 
 .form-text {
   color: black;
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 700;
   text-align: center;
-  margin-bottom: 30px;
+  margin-bottom: 12px;
+  line-height: 1.15;
+  letter-spacing: 0.03em;
+}
+
+.form-label {
+  margin-bottom: 4px;
+  font-size: 12px;
+  line-height: 1.16;
+  letter-spacing: 0.01em;
 }
 
 .form-textarea {
